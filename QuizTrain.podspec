@@ -30,24 +30,9 @@ QuizTrain is a framework created at Venmo allowing you to interact with TestRail
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "QuizTrain/QuizTrain/**/*.{swift,h}"
+  s.source_files  = "QuizTrain/QuizTrain/**/*.swift"
   # s.exclude_files = "QuizTrain/Info.plist"
-
   # s.public_header_files = "Classes/**/*.h"
-
-
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  A list of resources included with the Pod. These are copied into the
-  #  target bundle with a build phase script. Anything else will be cleaned.
-  #  You can preserve files from being cleaned, please don't preserve
-  #  non-essential files like tests, examples and documentation.
-  #
-
-  # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
-
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
