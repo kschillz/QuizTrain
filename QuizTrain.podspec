@@ -30,8 +30,8 @@ QuizTrain is a framework created at Venmo allowing you to interact with TestRail
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "QuizTrain", "QuizTrain/**/*"
-  s.exclude_files = "QuizTrain/Info.plist"
+  s.source_files  = "QuizTrain", "QuizTrain/**/*{.swift,.h}"
+  # s.exclude_files = "QuizTrain/Info.plist"
 
   # s.public_header_files = "Classes/**/*.h"
 
