@@ -19,7 +19,8 @@ QuizTrain is a framework created at Venmo allowing you to interact with TestRail
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "Kyle Schiller"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/kschillz/QuizTrain.git", :tag => "#{s.version}" }
+  s.swift_versions = ['4.2', '5.0']
+  s.source       = { :git => "git@github.com:kschillz/QuizTrain.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
